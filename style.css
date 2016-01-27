@@ -1,27 +1,82 @@
 body{
     direction: rtl;
     font-family: Arial;
+    margin: 0px;
+}
+h3{
+    font-size: 30px;
+}
+p{
+    font-size: 13px;
+}
+.where_is {
+    background-color:#dcdcdc;
+}
+.directions{
+    width: 1024px;
+    margin: 0 auto;
+    padding: 30px 0;
+}
+.directions h3, .directions p:first-of-type {
+    display: inline;
+}
+.directions h4, .directions p {
+    margin: 5px 0;
+}
+.times {
+    display: inline-block;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+.times p:nth-child(even) {
+    font-size: 25px;
+}
+.times p:nth-child(odd) {
+    font-weight: 600;
+}
+
+.times p {
+    display: inline-block;
 }
 .listing_wrapper {
     background-color: #949485;
     max-width: 1680px ;
     color:white;
+    padding: 30px 0;
+    position: relative;
 }
 .wrapper {
     max-width:1024px;
     margin: 0 auto;
-    padding: 30px 0px;
+
 
 }
-
+.wrapper div {
+    width:365px;
+}
 .listing_wrapper h3 {
     color: yellow;
 
+
+}
+.wrapper div p:first-of-type {
+    font-size: 20px;
+    margin-bottom: -13px;
+}
+.par {
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;
+    padding: 15px 0;
 }
 
 label {
     width: 130px;
     display: inline-block;
+
+}
+input{
+    width:225px;
+    height: 25px;
 }
 
 .listing_wrapper article {
@@ -30,5 +85,21 @@ label {
 
 input[type="submit"] {
     margin: 0 136px 0 0;
-    width: 170px;
+    width: 225px;
+}
+input[type="submit"] {
+    background: black;
+    border: none;
+    color: white;
+    font-size: 16px;
+}
+.listing_wrapper img {
+    height: 538px;
+    position: absolute;
+    top: 0px;
+    left: 130px;
+}
+
+figure {
+    margin: 0px;
 }
