@@ -9,38 +9,100 @@ h3{
 p{
     font-size: 13px;
 }
+
+header {
+    background: #949381;
+}
+.top_header {
+    background: #282828;
+
+
+}
+.lecture h2 {
+    color: white;
+    display: inline-block;
+    margin: 10px 20px 0 5px;
+    display: inline-block;
+}
+
+.lecture h3 {
+    color: #2e2e2e;
+    display: inline-block;
+}
+
+.lecture{
+    background: #ececec;
+}
 .where_is {
     background-color:#dcdcdc;
+    position: relative;
 }
 .directions{
     width: 1024px;
     margin: 0 auto;
     padding: 30px 0;
 }
-.directions h3, .directions p:first-of-type {
+.directions h3, .small_h {
     display: inline;
 }
 .directions h4, .directions p {
     margin: 5px 0;
 }
 .times {
-    display: inline-block;
+    max-width: 445px;
     border-top: 1px solid black;
     border-bottom: 1px solid black;
 }
-.times p:nth-child(even) {
-    font-size: 25px;
-}
-.times p:nth-child(odd) {
-    font-weight: 600;
-}
+
 
 .times p {
     display: inline-block;
+    font-weight: 600;
+    width: 65px;
+}
+.where_is figure {
+    position: absolute;
+    top:30px;
+    left: 350px;
+
+}
+.where_is img {
+    display: block;
+}
+
+.where_is figcaption{
+    margin-right: 135px;
+    font-size: 13px;
+}
+
+.hours {
+    font-weight: 600;
+    color: #949485;
+    font-size: 35px;
+    padding-left: 80px;
+}
+.park {
+    display: inline-block;
+    padding: 10px 0 0 5px;
+    width: 220px;
+    margin-left: 5px;
+}
+.park  ol{
+  font-size: 13px;
+}
+
+.park p {
+    border-bottom: 1px solid black;
+    font-size: 16px;
+    padding-bottom: 10px;
+
+
+
+
 }
 .listing_wrapper {
     background-color: #949485;
-    max-width: 1680px ;
+    max-width: 1980px ;
     color:white;
     padding: 30px 0;
     position: relative;
@@ -97,9 +159,6 @@ input[type="submit"] {
     height: 538px;
     position: absolute;
     top: 0px;
-    left: 130px;
+    left: 200px;
 }
 
-figure {
-    margin: 0px;
-}
